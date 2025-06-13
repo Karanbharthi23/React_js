@@ -1,4 +1,3 @@
-
 import { createRoot} from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -14,7 +13,5 @@ const anotherElem = (
   click now !!!!! </a>
 )
 createRoot(document.getElementById('root')).render(
-
-  
- anotherElem 
+  <App></App>
 )
